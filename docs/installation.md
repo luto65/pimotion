@@ -72,7 +72,7 @@ Run the following command to pull the latest version of Pimotion:
 ```
 $ mkdir ~/projects
 $ cd ~/projects
-$ git clone https://github.com/citrusbyte/pimotion.git
+$ git clone https://github.com/luto65/pimotion.git
 ```
 
 ### Dependency installation
@@ -103,14 +103,9 @@ $ cp settings.cfg.example settings.cfg
 
 Open up the `settings.cfg` file in your favorite editor and update the configuration values.
 
-__cloudapp__:
- * username: Your CloudApp username
- * password: Your CloudApp password
-
-__m2x__:
- * api_key: Your master API key or the device specific API key
- * device_id: The Device ID
- * stream: The name of the stream in your M2X device
+__slack__:
+ * token: Your slack token
+ * channel: Your slack channel
 
 ### Running pimotion
 
@@ -128,7 +123,7 @@ $ python pimotion/main.py
 
 Example output of a correct running pimotion application:
 
-	$ python pimotion/main.py 
+	$ python pimotion/main.py
 	Waiting 2 seconds for the camera to warm up
 	Started recording
 	Started working on capturing
@@ -149,6 +144,4 @@ Example output of a correct running pimotion application:
 	Captured detected-15.jpg
 	Generating the montage
 	Finished capturing
-	Public URL: http://cl.ly/image/*******/download/montage.jpg
-	Posted URL to M2X channel motion-photos
-
+	Posted to slack channel 
