@@ -28,5 +28,5 @@ This project is delivered under the MIT license. See [LICENSE](LICENSE) for the 
 
 ### Attributions
 
-Written by [Sarah Henkens](https://github.com/sarahhenkens), sponsored by [Citrusbyte](https://citrusbyte.com/)
+Written by [Sarah Henkens](https://github.com/sarahhenkens), sponsored by [Citrusbyte](https://citrusbyte.com/)  
 Modified for slack by [Toldo](https://github.com/luto65)
